@@ -46,8 +46,7 @@ Extracts:
 
 Uses:
 - Text extraction (pdfplumber/docx)  
-- Regex + keyword-based parsing  
-- Optional AI fallback (Gemini)  
+- Regex + keyword-based parsing    
 
 ---
 
