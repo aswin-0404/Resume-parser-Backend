@@ -1,10 +1,10 @@
-AILOG.md – Resume Parser & AI Job Matching
+ # AILOG.md – Resume Parser & AI Job Matching
 
- ##Project Overview
+ ## Project Overview
 
 This project is a full-stack Resume Parser and Job Matching system built using Django (backend) and React + Tailwind CSS (frontend). It simulates a simplified Applicant Tracking System (ATS) where resumes are uploaded, parsed into structured data, and matched against job descriptions using a scoring algorithm.
 
- ##Role of AI in Development
+ ## Role of AI in Development
 
 AI was not just a tool but a co-pilot in the development process. It was used strategically at different stages:
 
@@ -20,7 +20,7 @@ Helped design the hybrid parsing strategy and weighted scoring system.
 Frontend Structuring  
 Suggested reusable React components and Tailwind styling patterns.
 
- ##Tools & Technologies
+ ## Tools & Technologies
 
 Backend
 Django + Django REST Framework
@@ -42,7 +42,7 @@ ChatGPT – for architecture, debugging, and algorithm design
 
 Google Gemini API – for structured data extraction (later optional fallback)
 
- ##AI Prompts (Examples)
+ ## AI Prompts (Examples)
 
 Resume Parsing Prompt
 json
@@ -65,7 +65,7 @@ Limited extraction to technical skills
 
 Reduced unnecessary text to avoid parsing errors
 
- ##Challenges with AI Integration
+ ## Challenges with AI Integration
 
 Gemini API Model Errors
 
@@ -83,7 +83,7 @@ Dependency Confusion
 
 Migration from google.generativeai → google.genai caused compatibility issues
 
- ##Solutions Implemented
+ ## Solutions Implemented
 
 Hybrid Parsing Approach
 
@@ -106,7 +106,7 @@ Error Handling
 
 Prevented crashes from API failures
 
- ##Matching Logic (AI-Assisted)
+ ## Matching Logic (AI-Assisted)
 
 Skill Match % = (matched skills ÷ required skills) × 100
 
@@ -138,7 +138,7 @@ Match Result Component – Shows score, matched/missing skills, experience gap (
 
 Candidate List Component – Displays all candidates with details
 
- ##Final Parsing Strategy
+ ## Final Parsing Strategy
 
 Rule-based parsing (primary)
 
